@@ -1,12 +1,5 @@
 <?php
 
-/**
- * CRUD для книг.
- *
- * Права:
- *  - Все (гость + юзер): index, view
- *  - Только юзер (аутентифицированный): create, update, delete
- */
 class BookController extends CController
 {
     public $layout = '//layouts/main';
