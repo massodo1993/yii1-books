@@ -1,0 +1,7 @@
+/vendor/
+/uploads/
+/assets/
+/protected/runtime/
+*.zip
+.DS_Store
+composer.lock

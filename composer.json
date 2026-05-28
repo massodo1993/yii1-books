@@ -1,0 +1,12 @@
+{
+    "name": "book-catalog/yii1-books",
+    "description": "Каталог книг на Yii1",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "yiisoft/yii": "~1.1"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}

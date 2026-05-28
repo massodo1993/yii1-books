@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+IndexIgnore */*
+
+RewriteEngine on
+
+# Не переписываем реальные файлы и директории
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Все запросы — через index.php
+RewriteRule . index.php [L]
